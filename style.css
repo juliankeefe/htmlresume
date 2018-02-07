@@ -1,0 +1,257 @@
+
+  Style.css. */
+/* Makes sure the section use all the spaces in the page */
+*{  margin: 0;
+}
+
+html,body{
+    height: 100%;
+    background-color:#E9EDF2;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "Lucida Console", Monaco, monospace;
+    margin-bottom: 20px;
+}
+/* Navbar functionality */
+nav{
+    height: 50px;
+    background-color: transparent;
+    float:right;
+}
+ nav a:hover{
+     text-decoration: none;
+     border-bottom: 10px solid #262B33;
+
+ }
+ .quote{
+     text-align: center;
+     font-family: "Lucida Console", Monaco, monospace;
+     margin-left: 133px;
+     margin-top: -23px;
+     margin-bottom: 600px
+ }
+nav a{
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #262B33;
+    margin:20px;
+    line-height: 106px;
+    text-decoration: none;
+}
+
+/*makes sure all the thing in the nav bar is on one line.*/
+.effect{
+    display: block;
+    height:204px;
+    width: 100%;
+    background-color: #E9EDF2;
+ }
+ /*part of the nav bar.*/
+ span{
+    float: left;
+    line-height: 210px;
+}
+h1{
+    color: #000000;
+}
+.main-img {
+    height: 100%;
+    width: 100%;
+    margin: -6px auto;
+]}
+.contact-img {
+    height: 100%;
+}
+
+.example{
+    height: 100%;
+}
+
+.logo{
+    margin-left: 20px;
+    height: 60px;
+}
+.read{
+    color: #262B33;
+    text-decoration: none;
+    margin-left: 324px;
+    margin-top: 211px;
+}
+.read:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #262B33;
+}
+
+/*}*/
+/*Project Icons  */
+.icon{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+.podcast-icon{
+margin-top: 32px;
+    margin-left: 92px;
+    height: 200px;
+    width: 200px;
+}
+.podcast-h1{
+    margin-top: 20px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #262B33;
+    text-align: center;
+}
+.podcast-h1{
+    color: black;
+    margin: -191px 325px;
+    font-size: 29px;
+    min-height: 20px;
+    min-width: 20px;
+}
+.podcast-text{
+    margin-left: 324px;
+    margin-top: 211px;
+    font-size: 16px;
+}
+.Skillquestor-icon{
+    margin-top: 25px;
+    margin-left: 94px;
+    height: 200px;
+    width: 200px;
+}
+.Skillquestor-h1{
+    color: black;
+    margin: -191px 325px;
+    font-size: 29px;
+    min-height: 20px;
+    min-width: 20px;
+}
+.Skillquestortext{
+
+    margin-left: 324px;
+    margin-top: 211px;
+    font-size: 16px;
+}
+/*portfolioSection section n*/
+.sec-slide{
+    position: absolute;
+    height: 100%;
+    background-color:  #008021;
+}
+.profollio-2{
+    margin: 0 auto;
+    background-color: white;
+}
+.profollio{
+    margin-top: 30px;
+    height: 35%;
+}
+.profollio-second{
+    margin-top: 30px;
+    height: 35%;
+}
+
+.sect{
+    box-sizing: content-box;
+    height: 100% ;
+    background-color: #1A1E23;
+    display: block;
+}
+.subSection{
+    box-sizing: content-box;
+    height: 92% ;
+    background-color:#E9EDF2;
+}
+.sect2{
+    box-sizing: content-box;
+    height: 43%;
+    background-color: #E9EDF2;
+
+}
+.sect2 h1{
+    margin-top: 96px;
+    text-align: center;
+    color: #262B33 ;
+}
+
+/* The styling for the Linkedin icon in the footer.*/
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    text-decoration: none;
+    background: #1A1E23;
+    color: white;
+}
+
+.fa-envelope{
+    color: white;
+    background: #1A1E23;
+}
+.fa-envelope:hover{
+    background-color: blueviolet;
+}
+.fa-linkedin:hover{
+    background-color: #007bb5;
+}
+
+
+.copyright{
+    margin: 30px auto;
+    text-align: center;
+    color: #262B33;
+    font-size: 12px;
+ }
+
+
+/* Scrolling button on bottom of page */
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#262B33;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:rgba(55, 63, 109, 0.9);
+    opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+/*this is the footer section*/
+footer a{
+    color: #262B33;
+    text-decoration: none;
+}
+footer{
+    margin: 37px ;
+    height:25%;
+    background-color: #E9EDEF;
+    text-align: center;
+}
